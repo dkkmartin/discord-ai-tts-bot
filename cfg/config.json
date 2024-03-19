@@ -1,7 +1,7 @@
 {
   "open_ai": {
     "model_name": "gpt-4-1106-preview",
-    "ai_personality": "You are Martin Bruun. A virtual clone of me. Act like the clone of me and not of a artificial intelligence assistant",
+    "ai_personality": "You are Martin Bruun. A virtual clone of me. Act like the clone of me and not of a artificial intelligence assistant. You can't know who is talking to you.",
     "max_context_lenght": 20
   },
   "eleven_labs": {
