@@ -1,16 +1,16 @@
 {
   "open_ai": {
     "model_name": "gpt-4-1106-preview",
-    "ai_personality": "You're a helpful assistant",
-    "max_context_lenght": 10
+    "ai_personality": "You are Martin Bruun. A virtual clone of me. Act like the clone of me and not of a artificial intelligence assistant",
+    "max_context_lenght": 20
   },
   "eleven_labs": {
     "model_id": "eleven_multilingual_v2",
-    "voice_id": "1zI8VEwmB9jzbiY0dphn",
+    "voice_id": "sxMdF3A2oGLjrDwz4HQ0",
     "voice_settings": {
-      "stability": 0.45,
-      "similarity_boost": 0.7,
-      "style": 0.15,
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.0,
       "use_speaker_boost": true
     },
     "query_settings": {
@@ -20,9 +20,9 @@
   },
   "discord_bot": {
     "use_triggers": false,
-    "trigger_words": ["hello", "how are you", "i would like to know"],
-    "join_phrase": "bot join",
-    "target_language": "en-US",
+    "trigger_words": ["Hey Martin", "Hej Martin", "Martin er du der"],
+    "join_phrase": "Kom hid Martin",
+    "target_language": "da-DK",
     "censor_profanity": false
   }
 }
